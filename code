@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andris Saulītis - Academic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .publication {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Andris Saulītis, PhD</h1>
+        <p>Marie Skłodowska-Curie Postdoctoral Fellow<br>
+        Collegio Carlo Alberto, Italy<br>
+        Email: andris.saulitis@carloalberto.org | Phone: +371 264 733 10</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a> |
+        <a href="#education">Education</a> |
+        <a href="#research">Research</a> |
+        <a href="#publications">Publications</a> |
+        <a href="#teaching">Teaching</a>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a Marie Skłodowska-Curie Postdoctoral Fellow at Collegio Carlo Alberto, Italy. My research focuses on policy evaluation, local development program implementation and assessment, and behavioural public policy.</p>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>PhD, Social and Political Sciences, European University Institute (Florence, Italy), 2020</li>
+                <li>M.A., Anthropology, The New School for Social Research (New York, USA), 2014</li>
+            </ul>
+        </section>
+
+        <section id="research" class="section">
+            <h2>Current Research Project</h2>
+            <h3>TAXMORALBIAS – Tax Morale and Social Desirability Bias: Examining the Shadow Economy Experimentally</h3>
+            <p>Grant authority: European Commission Marie Skłodowska-Curie Actions<br>
+            Total budget: €172,750.08<br>
+            Project leader at Collegio Carlo Alberto</p>
+            <p>This project explores how tax morale influences social desirability bias, aiming to reduce the size of the shadow economy by implementing and combining list, vignette and field experiments.</p>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Selected Publications</h2>
+            <div class="publication">
+                <p>Saulītis, A. (Forthcoming). Personalized Messaging Enhances Hospital Debt Collection While Prosocial Appeals Fail: Evidence from a Field Experiment. Digital Health. DOI: 10.1177/20552076241277035</p>
+            </div>
+            <div class="publication">
+                <p>Saulītis, A., Chapkovski, Ph. (2024). Appealing, Nudging or Threatening? Assessing Various Communication Strategies to Promote Tax Compliance. Public Choice. DOI: 10.1007/s11127-024-01194-w</p>
+            </div>
+            <div class="publication">
+                <p>Saulītis, A., Silkāne, V., Gaile, G. A. (2024). Nudging Pro-Environmental Behaviour in A Subsidized Waste Recycling System: A Field Experimental Study. Journal of Environmental Psychology, 99, 102416. DOI: 10.1016/j.jenvp.2024.102416</p>
+            </div>
+        </section>
+
+        <section id="teaching" class="section">
+            <h2>Teaching Experience</h2>
+            <h3>Collegio Carlo Alberto</h3>
+            <p>MA in Economics: Advanced Research Design (2023; 2024)</p>
+            <h3>Riga Stradiņš University</h3>
+            <p>BA in Communication Studies: Introduction to Sociology (2023; 2024)<br>
+            MA in Social Anthropology: (In)Visible Practices and Shadow economy (2021; 2022)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Andris Saulītis. All rights reserved.</p>
+    </footer>
+</body>
+</html>
